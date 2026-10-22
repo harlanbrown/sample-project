@@ -6,4 +6,6 @@ Bundle-Version: 1.0.0
 Bundle-Name: sample-operation
 Bundle-ManifestVersion: 2
 Bundle-SymbolicName: org.nuxeo.sample.sample-operation;singleton=true
-Nuxeo-Component: OSGI-INF/operations-contrib.xml,OSGI-INF/listener-contrib.xml
+Nuxeo-Component: OSGI-INF/operations-contrib.xml,
+ OSGI-INF/listener-contrib.xml,
+ OSGI-INF/marshallers-override.xml

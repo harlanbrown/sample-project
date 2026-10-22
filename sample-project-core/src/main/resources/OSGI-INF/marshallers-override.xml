@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<component name="org.nuxeo.support.marshallers.override">
+    <require>org.nuxeo.ecm.platform.types.marshallers</require>
+    <extension target="org.nuxeo.ecm.core.io.MarshallerRegistry" point="marshallers">
+        <register class="org.nuxeo.support.SubtypesJsonEnricherOverride" enable="true" />
+        <register class="org.nuxeo.ecm.platform.types.SubtypesJsonEnricher" enable="false" />
+    </extension>
+</component>
